@@ -15,4 +15,4 @@ function sortearItem(lista) {
 const temas = ["fundo1.jpg", "fundo2.jpg", "fundo3.jpg", "fundo4.jpg", "fundo5.jpg", "fundo6.jpg", "fundo7.jpg", "fundo8.jpg", "fundo9.jpg"];
 let temaSorteado = sortearItem(temas);
 
-body.style.backgroundImage = `url('../img/${temaSorteado}')`;
+body.style.backgroundImage = `url('img/${temaSorteado}')`;
