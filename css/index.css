@@ -12,9 +12,10 @@ body{
 .container{
     display: flex;
     min-width: 100vw;
-    min-height: 80vh;
+    height: 100vh;
     justify-content: center;
     place-items: center;
+    position: absolute;
 }
 
 .ativar-audio{
@@ -30,6 +31,7 @@ body{
     cursor: pointer;
     opacity: 0.3;
     transition: opacity 400ms ease-in-out;
+
 }
 
 .ativar-audio:hover{
@@ -38,10 +40,4 @@ body{
 
 .ativar-audio:active{
     opacity: 1;
-}
-
-@media(max-width: 900px){
-    .container{
-        min-height: 100vh;
-    }
 }
