@@ -6,8 +6,6 @@ nav{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 15vh;
-    z-index: 3; 
     display: flex;
     justify-content: space-around;
     place-items: center;
@@ -61,6 +59,10 @@ nav a{
 }
   
 @media (max-width: 999px) {
+    body{
+        background-size: contain;
+    }
+
     .icone{
         margin-left: 2%;
         margin-right: 5%;
